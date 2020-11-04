@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyBlog-Home</title>
+	<meta charset="UTF-8">
+	<link rel="icon" href="image/icon.png" type="image/png">
+	<style type="text/css">
+body {
+	background-color: hsl(0, 0%, 25%);
+}
+
+#hd { 
+	text-decoration: none;
+	color: darkcyan; 
+} 
+
+#pr {
+	text-decoration: none;
+	color: white; 
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+}
+
+li {
+	float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+li {
+  border-right: 1px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+.active {
+  background-color: darkcyan;
+}
+	</style>
+</head>
+<body>
+
+	<h1 style="font-size: 60px"><a id=hd href="index.html">My Blog</a></h1>
+
+	<ul>
+ 		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li style="float: right;"><a href="about.html">About</a></li>
+	</ul>
+
+	<p><a id=pr>This is home page at this website.Website is two or more webpage.So this is first webpage in this website.</a></p>
+	<br>
+	<p><a id=pr>You can use the navigation bar at the top to navigate where webpage you want to go within this website.</a></p>
+	<br>
+	<p><a id=pr>Thank you for visiting my first website &#128150;</a></p>
+
+
+</body>
+</html>
